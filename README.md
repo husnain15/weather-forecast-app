@@ -1,27 +1,36 @@
-# WeatherForecastApp
+# Angular Weather Forecasting App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.7.
+This project is a simple Angular application that displays weather forecasts for the District of Columbia and Kansas. The app fetches weather data from the National Weather Service API and visualizes the temperature forecast using Chart.js.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- View weather forecasts for:
+  - District of Columbia (LWX)
+  - Kansas (TOP)
+- Interactive line chart displaying temperature data
+- Responsive and visually appealing design
 
-## Code scaffolding
+## Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Make sure you have the following installed:
 
-## Build
+- [Node.js](https://nodejs.org/) (version 14 or above)
+- [Angular CLI](https://angular.io/cli) (install via `npm install -g @angular/cli`)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Getting Started
 
-## Running unit tests
+1. **Clone the repository:**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+   ```bash
+   ## git clone https://github.com/husnain15/weather-forecast-app
+   cd weather-forecast-app
+Install dependencies:
+## npm install
 
-## Running end-to-end tests
+after this 
+## ng serve
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Open your browser:
 
-## Further help
+## Navigate to http://localhost:4200 to view the app.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
