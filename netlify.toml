@@ -1,7 +1,7 @@
 [build]
 base = "weather-forecast-app"
 common = "ng build"
-pulish = "dist/browser"
+publish = "dist/browser"
 
 [[redirects]]
 from = "/*"
