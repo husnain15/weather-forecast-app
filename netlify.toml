@@ -1,0 +1,9 @@
+[build]
+base = "weather-forecast-app"
+common = "ng build"
+pulish = "dist/"
+
+[[redirects]]
+from = "/*"
+to = "index.html"
+status = 200
