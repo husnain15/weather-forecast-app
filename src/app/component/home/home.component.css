@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height of the viewport */
+    background-color: #f0f8ff; /* Light background color */
+    font-family: 'Arial', sans-serif; /* Clean font */
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333; /* Darker text color for contrast */
+  }
+  
+  .forecast-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .forecast-item {
+    margin: 35px 0;
+  }
+  
+  .forecast-link {
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+  }
+  
+  .forecast-link:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+  }
+  
+  @media (max-width: 600px) {
+    .title {
+      font-size: 2rem; /* Smaller font size for mobile */
+    }
+    
+    .forecast-link {
+      font-size: 1rem; /* Smaller link font size for mobile */
+    }
+  }
+  
